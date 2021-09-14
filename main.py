@@ -165,7 +165,7 @@ logger.setLevel(logging.INFO)
 handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
 handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
 logger.addHandler(handler)
-my_secret = os.environ['ODc1NTI2NDg4MTAxODkyMTQ2.YRWzlQ.6obG7tPyXFQe2xTqOMlHzRIfgq0']
+my_secret = os.environ['ODg3NDU3OTczMTEzMzUyMTky.YUEbpA.qYs3eHsbSAueazASF-51IXRNrP0']
 
 # hosts a website that can be pinged for uptime
 # keep_alive()
